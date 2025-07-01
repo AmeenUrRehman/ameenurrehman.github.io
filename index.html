@@ -415,42 +415,253 @@
 				</div>
 			</div>
 
-			<div class="col-md-8 offset-md-1" id="projectsContent">
-				<div class="container">
-					<div class="clickable mt-4">
-						<div class="d-none">https://github.com/AmeenUrRehman/Agriculus</div>
-						<div class="h5">🍀Agriculus</div>
-						<div class="blog-short mt-2">
-							Developed a comprehensive machine learning solution for precise crop selection and fertilizer recommendations, sharing agricultural insights through a blog. Achieved a remarkable accuracy of 99.3% with XGBoost, enhancing sustainable farming practices.
-						</div>
-						<div class="blog-tags mt-1">
-							<span class="tag t-sky">Python</span> <span class="tag t-lime">XGBoost</span> <span class="tag t-purple">Machine Learning</span>
-						</div>
-					</div>
-
-					<div class="clickable mt-4">
-						<div class="d-none">https://github.com/AmeenUrRehman/ML-Playground</div>
-						<div class="h5">🛸 ML Playground</div>
-						<div class="blog-short mt-2">
-							Developed a GitHub repository featuring 12 extensive machine learning projects covering domains like natural language processing, computer vision, and predictive modeling. This repository provides a 65% boost in practical examples, serving as a valuable resource for aspiring machine learning enthusiasts seeking inspiration and guidance.
-						</div>
-						<div class="blog-tags mt-1">
-							<span class="tag t-sky">Python</span> <span class="tag t-lime">scikit-learn</span>
-						</div>
-					</div>
-
-					<div class="clickable mt-4">
-						<div class="d-none">https://github.com/AmeenUrRehman/OpenCV-Kit</div>
-						<div class="h5">🛰️OpenCV Kit</div>
-						<div class="blog-short mt-2">
-							Curated a diverse repository of real-world projects exploring deep learning and OpenCV, empowering enthusiasts. Championed the creation of innovative image processing algorithms, striving to integrate with YOLO versions and other cutting-edge technologies, resulting in a 7% performance enhancement.
-						</div>
-						<div class="blog-tags mt-1">
-							<span class="tag t-sky">OpenCV</span> <span class="tag t-lime">YOLO</span> <span class="tag t-purple">Machine Learning</span>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div class="col-md-8 offset-md-1" id="projectsContent">
+                <div class="container">
+                    <!-- <h2 class="h2 mb-4">Portfolio</h2> -->
+                    <!-- Filter Buttons -->
+                    <ul class="filter-list mb-4 list-inline">
+                        <li class="filter-item list-inline-item">
+                            <button class="btn btn-outline-primary btn-sm active" data-filter-btn="all">All</button>
+                        </li>
+                        <li class="filter-item list-inline-item">
+                            <button class="btn btn-outline-primary btn-sm" data-filter-btn="prediction">Prediction</button>
+                        </li>
+                        <li class="filter-item list-inline-item">
+                            <button class="btn btn-outline-primary btn-sm" data-filter-btn="computer vision">Computer Vision</button>
+                        </li>
+                        <li class="filter-item list-inline-item">
+                            <button class="btn btn-outline-primary btn-sm" data-filter-btn="natural language processing">Natural Language Processing</button>
+                        </li>
+                    </ul>
+                    <!-- Projects List -->
+                    <div class="row project-list">
+                        <!-- ML Playground -->
+                        <div class="col-12 project-item mb-4" data-category="prediction">
+                            <a href="https://github.com/AmeenUrRehman/ML-Playground" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_1.png" alt="ML Playground" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🛸 ML Playground</div>
+                                            <div class="blog-short mb-2">
+                                                Built a GitHub repository with 12 expansive machine learning projects spanning natural language processing, computer vision, and predictive modeling, offering a 65% increase in practical examples for aspiring enthusiasts, serving as a valuable source of inspiration and guidance.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">Python</span>
+                                                <span class="tag t-lime">scikit-learn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Agriculus -->
+                        <div class="col-12 project-item mb-4" data-category="prediction">
+                            <a href="https://github.com/AmeenUrRehman/Agriculus" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_2.png" alt="Agriculus" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🍀 Agriculus</div>
+                                            <div class="blog-short mb-2">
+                                                Proficiently developed an extensive machine learning solution for precise crop prediction, tailored fertilizer advice, and insightful agricultural blogging. Achieved exceptional 99.3% accuracy with XGBoost, enhancing sustainable farming practices significantly.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">Python</span>
+                                                <span class="tag t-lime">XGBoost</span>
+                                                <span class="tag t-purple">Machine Learning</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Classification of Celebrities -->
+                        <div class="col-12 project-item mb-4" data-category="computer vision">
+                            <a href="https://github.com/AmeenUrRehman/DataScienceProject-ClassificationofCelebrities" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_3.png" alt="Classification of Celebrities" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🎬 Classification of Celebrities</div>
+                                            <div class="blog-short mb-2">
+                                                Utilized OpenCV's haarcascade for training facial recognition of 4 celebrities, emphasizing 80% effort on SVM-based Supervised Machine Learning Classification. Achieved outstanding 98% predictive accuracy, deploying this proficient model on a dedicated user-friendly website for seamless celebrity identification.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">OpenCV</span>
+                                                <span class="tag t-lime">SVM</span>
+                                                <span class="tag t-purple">Computer Vision</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- OpenCV Kit -->
+                        <div class="col-12 project-item mb-4" data-category="computer vision">
+                            <a href="https://github.com/AmeenUrRehman/OpenCV-Kit" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_4.jpg" alt="OpenCV Kit" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🛰️ OpenCV Kit</div>
+                                            <div class="blog-short mb-2">
+                                                OpenCV Kit organizes distinct directories for various computer vision algorithms and applications, providing algorithmic insights, OpenCV implementation guidance, and practical aids like code snippets and images. Topics covered include Image Filtering, Object Detection, Face Recognition, OCR, Feature Extraction, Image Segmentation, Camera Calibration, 3D Reconstruction, AR, VR, Gesture Recognition, and Motion Tracking.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">OpenCV</span>
+                                                <span class="tag t-lime">YOLO</span>
+                                                <span class="tag t-purple">Machine Learning</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Machine Learning Algorithms -->
+                        <div class="col-12 project-item mb-4" data-category="prediction">
+                            <a href="https://github.com/AmeenUrRehman/Machine-Learning-Algorithms-with-examples" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_5.png" alt="Machine Learning Algorithms" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">📊 Machine Learning Algorithms</div>
+                                            <div class="blog-short mb-2">
+                                                Organized into specific algorithm directories, the repository offers comprehensive READMEs explaining principles and math, coupled with Python code examples for practical real-world usage. Topics span Linear Regression, Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, SVM, KNN, K-Means, PCA, and Neural Networks.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">Python</span>
+                                                <span class="tag t-lime">scikit-learn</span>
+                                                <span class="tag t-purple">Algorithms</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Face Recognition With Attendance System -->
+                        <div class="col-12 project-item mb-4" data-category="computer vision">
+                            <a href="https://github.com/AmeenUrRehman/Face_Recognition_Attendance_System" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_6.png" alt="Face Recognition Attendance System" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🧑‍💼 Face Recognition With Attendance System</div>
+                                            <div class="blog-short mb-2">
+                                                Employing OpenCV and NumPy in Python, our facial recognition attendance system offers efficient and accurate identification, automating attendance tracking seamlessly. Leveraging advanced facial recognition algorithms, it ensures reliable recognition and logging of individuals, simplifying attendance management for various environments.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">OpenCV</span>
+                                                <span class="tag t-lime">NumPy</span>
+                                                <span class="tag t-purple">Python</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- DeepIntellect -->
+                        <div class="col-12 project-item mb-4" data-category="prediction">
+                            <a href="https://github.com/AmeenUrRehman/DeepLearning-Using-Tensorflow-and-Keras" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_7.png" alt="DeepIntellect" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🧠 DeepIntellect</div>
+                                            <div class="blog-short mb-2">
+                                                Leverage the power of deep learning frameworks such as TensorFlow, Keras, and PyTorch to drive accurate predictions in diverse projects like customer churn prediction. Employ artificial neural networks (ANN) for sophisticated pattern recognition, and harness convolutional neural networks (CNN) to unravel intricate insights from data, empowering smarter decisions and enhanced outcomes.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">TensorFlow</span>
+                                                <span class="tag t-lime">Keras</span>
+                                                <span class="tag t-purple">PyTorch</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- NotesBrainy -->
+                        <div class="col-12 project-item mb-4" data-category="natural language processing">
+                            <a href="https://github.com/AmeenUrRehman/NotesBrainy" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_8.png" alt="NotesBrainy" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">📝 NotesBrainy</div>
+                                            <div class="blog-short mb-2">
+                                                NotesBrainy stands as an innovative AI-driven note-taking app, seamlessly integrating text summarization, speech recognition, and note deletion for an efficient and intuitive note-taking journey. This application harnesses cutting-edge technology to enhance the user's experience, making the process of capturing and organizing information more streamlined and effective.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">NLP</span>
+                                                <span class="tag t-lime">Speech Recognition</span>
+                                                <span class="tag t-purple">Summarization</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Potato Disease Classification -->
+                        <div class="col-12 project-item mb-4" data-category="prediction">
+                            <a href="https://github.com/AmeenUrRehman/Deep-Learning-Project---Potato-Disease-classification" target="_blank" class="text-decoration-none link-dark">
+                                <div class="clickable p-3 border rounded">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <img src="./assets/images/project_9.jpg" alt="Potato Disease Classification" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="h5 mb-1">🥔 Potato Disease Classification</div>
+                                            <div class="blog-short mb-2">
+                                                Accurate identification of potato diseases is crucial, as treatments for early blight and late blight differ. Employing Convolutional Neural Networks, our solution utilizes Deep Learning to diagnose these diseases, enhancing precision in plant disease classification and enabling tailored treatments for optimal crop health.
+                                            </div>
+                                            <div class="blog-tags">
+                                                <span class="tag t-sky">Deep Learning</span>
+                                                <span class="tag t-lime">CNN</span>
+                                                <span class="tag t-purple">Agriculture</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    // Simple filter logic
+                    document.querySelectorAll('.filter-list button').forEach(btn => {
+                        btn.addEventListener('click', function () {
+                            document.querySelectorAll('.filter-list button').forEach(b => b.classList.remove('active'));
+                            this.classList.add('active');
+                            const cat = this.getAttribute('data-filter-btn');
+                            document.querySelectorAll('.project-item').forEach(item => {
+                                if (cat === 'all' || item.getAttribute('data-category') === cat) {
+                                    item.style.display = '';
+                                } else {
+                                    item.style.display = 'none';
+                                }
+                            });
+                        });
+                    });
+                </script>
+            </div>
+        </div>
 
 		</div>
 	</div>
