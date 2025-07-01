@@ -1,971 +1,455 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-
-	<head>
-
-		<!-- Meta tags -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<meta name="description" content="Nicolas Meseguer's website, biography, education, previous experience and published papers."/>
-		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Nicolas Meseguer, nicolas meseguer youtube, nicolas meseguer github, nicolas meseguer murcia, nicolas meseguer cv, nicolas meseguer portfolio"/>
-		
-		<meta name="author" content="Nicolas Meseguer" />
-		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
-		
-		<!-- Title + Icon -->
-		<title>Ameen Ur Rehman</title>
-		<link rel="icon" type="image/x-icon" href="assets/documents/imgs/pngtree-blue-assassin-esports-logo-for-gaming-mascot-png-image_1038929.jpg">
-
-		<!-- Improve SEO -->
-		<meta name="robots" content="index,follow" />
-
-		<!-- Styles -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-
-	</head>
-
-	<!-- Google tag (gtag.js) & Google Analytics -->
-	<script>
-        fetch('./assets/js/config.json')
-            .then(response => response.json())
-            .then(config => {
-                const scriptTag = document.createElement('script');
-                scriptTag.async = true;
-                scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsMeasurementId}`;
-                document.head.appendChild(scriptTag);
-
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', config.googleAnalyticsMeasurementId);
-            })
-            .catch(error => console.error('Error loading the configuration:', error));
-    </script>
-
-	<body>
-
-		<!-- Bottom rounded button -->
-		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
-		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
-<!--		<div class="options-button" id="lan"><img class="lang-flag" src="https://flagcdn.com/w20/us.png" alt="Flag indicating the english language is selected"></div>-->
-
-
-		<!-- Navbar  -->
-		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
-			<div class="container justify-content-center">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
-					<ul class="navbar-nav mx-auto language" id="navbarList">
-						<li class="nav-item">
-							<a class="nav-link active" id="aboutme" href="#"
-								data-es="Sobre Mi"
-								data-en="About Me">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="experience" href="#"
-								data-es="Experiencia"
-								data-en="Experience">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="publications" href="#"
-								data-es="Publicaciones"
-								data-en="Publications">
-						</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="projects" href="#"
-								data-es="Proyectos"
-								data-en="Projects">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="education" href="#"
-								data-en="Position of Responsiblites">
-						</a>
-						</li>
-<!--						<li class="nav-item">-->
-<!--							<a class="nav-link" id="conferences" href="#"-->
-<!--								data-en="Conferences">-->
-<!--							</a>-->
-<!--						</li>-->
-
-						<!-- Example using Photos -->
-						<!-- <li class="nav-item">
-							<a class="nav-link" id="photos" href="#"
-								data-es="Fotos"
-								data-en="Photos">
-							</a>
-						</li> -->
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<div class="container" id="main-content">
-			<div class="row content" id="section-content">
-
-				<!-- Nicolas Meseguer profile and contact info -->
-				<div id="leftPanel" class="col-md-3 language">
-					<div class="row mb-3">
-						<div class="col">
-							<img src="assets/documents/imgs/my_avatar-mo.webp" class="rounded me-auto d-block img-fluid profilepicture" alt="Nicolas Meseguer profile picture">
-						</div>
-					</div>
-
-					<h3 class="mb-2">Ameen Ur Rehman</h3>
-
-					<p class="mb-4">
-						<span class="t-secondary" data-es="Estudiante de doctorado en Arquitectura de Computadores en la Universidad de Murcia y CTO en "
-						data-en="B.Tech in Computer Science and Engineering Student at Jamia Hamdard">
-					</p>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<span
-								data-es="Área Metropolitana"
-								data-en="New Delhi, India">
-							</span>
-<!--							<br/>-->
-<!--							India,-->
-<!--							<span -->
-<!--								data-es="España" -->
-<!--								data-en="Spain">-->
-<!--							</span>-->
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="ai ai-cv" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-								<a href="assets/documents/CV_Ameen_Ur_Rehman.pdf" class="link-dark" target="_blank" data-es="CV [Actualizado 03/2024]" data-en="CV [Updated 2/2025]"></a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fa-regular fa-envelope" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="ameensadiya12345@gmail.com" class="link-dark">ameensadiya12345@gmail.com</a>
-						</div>
-					</div>
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href=" https://www.linkedin.com/in/ameen-ur-rehman-9b07a321b" class="link-dark" target="_blank">LinkedIn</a>
-						</div>
-					</div>
-
-<!--					<div class="row mb-2">-->
-<!--						<div class="col-1">-->
-<!--							<i class="fa-brands fa-twitter" aria-hidden="true"></i>-->
-<!--						</div>-->
-
-<!--						<div class="col-10">-->
-<!--							<a href="https://twitter.com/NicolasMeseguer" class="link-dark" target="_blank">Twitter</a>-->
-<!--						</div>-->
-<!--					</div>-->
-
-					<div class="row mb-2">
-						<div class="col-1">
-							<i class="fab fa-github" aria-hidden="true"></i>
-						</div>
-
-						<div class="col-10">
-							<a href="https://github.com/AmeenUrRehman" class="link-dark" target="_blank">GitHub</a>
-						</div>
-					</div>
-
-<!--					<div class="row mb-2">-->
-<!--						<div class="col-1">-->
-<!--							<i class="fab fa-gitlab" aria-hidden="true"></i>-->
-<!--						</div>-->
-
-<!--						<div class="col-10">-->
-<!--							<a href="https://gitlab.com/NicolasMeseguer" class="link-dark" target="_blank">GitLab</a>-->
-<!--						</div>-->
-<!--					</div>-->
-
-<!--					<div class="row mb-2">-->
-<!--						<div class="col-1">-->
-<!--							<i class="fa-solid fa-plus"></i>-->
-<!--						</div>-->
-
-<!--						<div class="col-10">-->
-<!--							<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank"><img class="fseneca" src="/assets/documents/imgs/fseneca-color.svg" alt="Fundación Séneca"></a>-->
-<!--						</div>-->
-<!--					</div>-->
-				</div>
-
-				<!-- About Me -->
-				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
-					<div class="container">
-						<div class="row language">
-							<p class="mt-2 justify"
-
-								data-en="Passionate about pushing the boundaries of innovation, I delve into the realms of drone systems, space Iron Man suits, reinforcement learning, and generative AI. Beyond the realm of computer vision, my focus extends to crafting solutions for real-world challenges. Through my journey in open-source contributions, I thrive on exploring deep learning intricacies and eagerly anticipate collaborating on groundbreaking projects that fuse creativity with technological prowess. Let's embark on this journey of innovation together! 🚀🔧
-										Eager to elevate my exploration of artificial intelligence, I am actively seeking internships within the realm of AI research, with a keen interest in opportunities that could potentially evolve into a full-time
-										 post-graduate pursuit.">
-							</p>
-
-							<h4 id="researchinterestsH4" class="mt-2"
-								data-en="Education">
-							</h4>
-
-							<div class="student-name" ><span data-en="Jamia Hamdard (2021 - 2025)"></span></div>
-								<div class="academic-year"><span data-en="Bachelor of Technology in Computer Science and Engineering"></span></div>
-								<div class="academic-year"><span data-en="Grade : First Division with Distinction"></span></div>
-								<div class="mt-2 justify" data-en = "Throughout my course I have studied Machine Learning, Web Development, Database Management System, Compiler Design, Computer Networks, Digital Electronics, Mathematics, Physics, Operating System, Deep Learning, Data Mining, Neural Networks and Software Development.">
-								</div>
-
-							<h4 id="honors-and-awards" class="mt-2" data-es="Premios y Distinciones" data-en="Honors and Awards"></h4>
-
-							<ul class="mt-1">
-
-								<li class="abme-honors-bullet">
-									 <strong>🥇 Winner</strong> <span data-en= "of Hack-A-Thon from 45+ Universities for AI/ML Domain."></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥇 Winner</strong> <span data-en="of Internal Hackathon of Smart India Hackathon (SIH) 2023."></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥈 Finalist</strong>, <span data-en="of HackJNU 3.0 from 55+ Universities for AI/ML Domain"></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-en="University scholarship"></span></strong> <span data-en=" Financial Aid for Academic excellence."></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong> Fellow </strong> <span data-en="of Season 3 The Nights and Weekends at buildspace."></span>
-								</li>
-
-							</ul>
-
-							<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
-
-							<div class="container">
-								<div class="row mt-3">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/computer-coding.jpg" alt="Programming and Math">
-									</div>
-									<div class="col-md-9" id="hobbie1">
-										<b
-											data-es="Programación + Mates"
-											data-en="Programming">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Desde pequeño sentí curiosidad por saber cómo se creaban los escenarios (visualmente) de los diferentes videojuegos; cómo los motores gráficos conseguían lo que yo consideraba en aquella época unos 'gráficos increíbles'. Motivado por esto y por mi pasión por la programación, he incluido los ejercicios de"
-											data-en="I love playing games like GTA San Andreas and Hitman, where I discovered cheat codes and developed my interest in programming. Using mobile techniques, voice assistants, and inspiration from movies like Iron Man fueled my passion to pursue a career in tech.">
-										</p>
-
-<!--										<a href="https://projecteuler.net/" class="link-dark" target="_blank">Project Euler</a> <span data-es="en mi" data-en="into my"></span> <a href="https://github.com/NicolasMeseguer/Toolbox" class="link-dark" target="_blank"><span data-es="propio repositorio de código abierto" data-en="own open-source repository"></span></a>.-->
-
-									</div>
-								</div>
-
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202406/66691948cf6a2-travelling-12430430-16x9.jpg?size=948:533" alt="Travelling">
-									</div>
-									<div class="col-md-9" id="hobbie2">
-										<b
-											data-es="Viajar"
-											data-en="Travelling">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Decidí viajar a Alemania para hacer unas prácticas el mismo año que terminé el grado superior. Desde entonces, me he propuesto ir a un lugar nuevo al menos una vez al año. He recorrido Italia, conducido en moto a través de Tailandia (sin embargo, la pandemia me lo ha puesto bastante dificil estos últimos años)."
-											data-en="I love to travel and explore new places. Currently in India, I'm enjoying the unique charm of each destination and look forward to discovering more of its diverse landscapes.">
-										</p>
-
-									</div>
-								</div>
-
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="https://i.pinimg.com/originals/f1/d7/f7/f1d7f737fe1b428857857d8901d4e462.jpg" alt="Content Creator on YouTube">
-									</div>
-									<div class="col-md-9" id="hobbie3">
-										<b
-											data-es="Filmaker (casi nunca)"
-											data-en="Sports + Workout">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Me gusta compartir mis experiencias en el campo de la tecnología. Llevo viendo vídeos en internet desde que tengo uso de razón, así que en 2018 decidí crearme un canal de"
-											data-en="As a sports and workout enthusiast, I believe in the importance of physical activity for a sharp mind. My father always told me that an active mind doesn't exist without an active body. This advice has driven me to stay engaged in various sports and maintain a consistent workout routine.">
-										</p>
-
-<!--										<a href="https://www.youtube.com/c/NicolasMeseguer" class="link-dark" target="_blank">YouTube</a><span data-es="." data-en=""></span>-->
-
-<!--										<span-->
-<!--											data-es="Algunos vídeos tienen más de 150 mil visitas a día de hoy... ¿No es increíble? Si tienes suerte puedes encontrarme por"-->
-<!--											data-en="channel. Some videos have already received over 150 thousand views as of today... Isn't it amazing? If lucky enough you can find me at">-->
-<!--										</span>-->
-
-<!--										<a href="https://www.twitch.tv/nicolasmeseguerr" class="link-dark" target="_blank">Twitch</a>-->
-<!--										-->
-<!--										</br>-->
-
-<!--										<span class="lucida-console small">(<i class="fa-light fa-share-from-square"></i> <a href="https://www.youtube.com/@NicolasMeseguerArchive" class="link-dark" target="_blank">YouTube Archive)</a>.</span>-->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<!-- Education -->
-				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
-					<div class="container">
-						<div class="row mt-2 language">
-							<!-- Year -->
-							<h2 class="academic-year-h2">Leadership Experience</h2>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="leadership-name"> <span data-en="Student Ambassador"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Microsoft Learn Student Ambassador"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="August 2023 - Present"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Actively contributed to the advancement of Microsoft technologies. My focus on mentorship and collaborative feedback
- 									reflects my dedication to fostering personal and community growth in the tech space.">
-								</div>
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="leadership-name"> <span data-en="Artificial Intelligence and Machine Learning Lead"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Google Developer Student Club"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="May 2022 - August 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Led Machine Learning and AI initiatives, boosting student participation by 30%, enhancing knowledge-sharing by 25%,
-											and completing 8 domain-specific projects, vital for GDSC’s growth.">
-								</div>
-							</div>
-						</div>
-
-						<div class="row mt-2 language">
-							<!-- Year -->
-							<h2 class="academic-year-h2">Mentorship Experience</h2>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="mentorship-name"> <span data-en="Artificial Intelligence and Machine Learning Mentor"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="IIT Kharagpur Open Source Society (KOSS)"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="December 2022 - January 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Guided 60+ students, fostering innovation and boosting engagement by 25% through facilitated knowledge sharing,
- 											supporting 20+ open-source contributions.">
-								</div>
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="mentorship-name"> <span data-en="Artificial intelligence and Machine Learning Mentor"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="HackClub"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="May 2022 - April 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Guided students in machine learning and artificial intelligence projects. Empowering the through hands-on learning and mentorship.">
-								</div>
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-
-<!-- Publications -->
-				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
-					<div class="container">
-
-						<!-- Each new year -->
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2024</h2>
-
-							<div class="pub-block">
-								<!-- Title -->
-								<div class="lucida-console h5">Syllabus: Curriculum Learning Made Easy</div>
-								<!-- Authors -->
-								<div class="pub-authors mt-1">Ryan Sullivan, Ryan Pégoud, <span class="pub-author">Ameen Ur Rehman</span>, Xinchen Yang, Junyun Huang, Aayush Verma, Nistha Mitraa and John P Dickerson.</div>
-								<!-- Place -->
-								<div class="pub-congress">Under-Review NeurIPS 2024.</div>
-								<!-- Links -->
-<!--								<div class="mt-1">-->
-<!--									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Abstract</a> </span>-->
-<!--								</div>-->
-								<!-- Citation -->
-								<div class="d-none">
-@article{2023cpupcgcn,
-	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
-	year = {2023},
-	month = {July},
-	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
-	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
-	volume = {19},
-	pages = {5--8},
-	isbn = {978-90-7842-704-9}
-}</div> <br>
-								<!-- Title -->
-								<div class="lucida-console h5">Advances in AI for Healthcare Applications</div>
-								<!-- Authors -->
-								<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Abuzar and Dayam Nadeem.</div>
-								<!-- Place -->
-								<div class="pub-congress">Book Chapter Under-review CRC Press (Taylor and Francis).</div>
-								<!-- Links -->
-								<div class="d-none">
-@article{2023cpupcgcn,
-	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
-	year = {2023},
-	month = {July},
-	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
-	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
-	volume = {19},
-	pages = {5--8},
-	isbn = {978-90-7842-704-9}
-}</div><br>
-								<!-- Title -->
-								<div class="lucida-console h5">Synergetic Intelligence: A Multi-Agent Learning Framework for Sustainable Healthcare Computing.</div>
-								<!-- Authors -->
-								<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Abdul Sadiq, Amaan Ahmad, Arman Khan, Adnan Khan and Anmol Mathur.</div>
-								<!-- Place -->
-								<div class="pub-congress">4th International Conference on ICT for Digital, Smart and Sustainable Development.</div>
-								<!-- Links -->
-								<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/ICIDSSD%20JH%20Certificate.pdf" target="_blank" class="link-dark ">PDF</a></span>
-								</div><br>
-								<!-- Title -->
-								<div class="lucida-console h5">Cybersecurity challenges and risks in AGI development and deployment.</div>
-								<!-- Authors -->
-								<div class="pub-authors mt-1"> Usha Rawat, Abhishek, H. Singh and <span class="pub-author">Ameen Ur Rehman</span>.</div>
-								<!-- Place -->
-								<div class="pub-congress">Accepted at Springer 2024.</div>
-								<!-- Links -->
-								<div class="mt-1"><a href="https://doi.org/10.1007/978-981-97-3222-7_14"><img src="https://zenodo.org/badge/DOI/10.5281/978-981-97-3222-7_14.svg" alt="DOI"></a></div>
-								<!-- Citation -->
-								<div class="d-none">
-									@Inbook{Rawat2025,
-author="Rawat, Usha
-and Abhishek
-and Singh, Himadri
-and Ur Rehman, Ameen",
-editor="El Hajjami, Salma
-and Kaushik, Keshav
-and Khan, Inam Ullah",
-title="Cybersecurity Challenges and Risks in AGI Development and Deployment",
-bookTitle="Artificial General Intelligence (AGI) Security: Smart Applications and Sustainable Technologies",
-year="2025",
-publisher="Springer Nature Singapore",
-address="Singapore",
-pages="291--314",
-abstract="As the development and deployment of Artificial General Intelligence (AGI) continue at an unparalleled step, associated cybersecurity challenges and risks have become important topics. AGI is the most advanced form of artificial intelligence and has significant social benefits but also increases some security issues. This chapter explores the different aspects of AGI security, starts with an introductory section, and provides a comprehensive background to AGI, highlighting its significance in society and the quick advancements in its fields. Subsequently, it discusses the ever-evolving world of cybersecurity and how it relates to AGI, also addressing the cybersecurity threats and challenges. Furthermore, this chapter highlights the risks associated with AGI security, emphasizing the consequence of an insecure AGI system. Analysis includes ethical considerations that address ethical issues concerning AGI security and the accountability of developers. For secure AGI development, some best practices are outlined, with a focus on transparency and accountability. In this fast-changing field, it is crucial to understand the security problems with AGI. This chapter provides a comprehensive exploration of the ethical, technical, and security issues that will shape the future of AGI.",
-isbn="978-981-97-3222-7",
-doi="10.1007/978-981-97-3222-7_14",
-url="https://doi.org/10.1007/978-981-97-3222-7_14"
-}</div>
-							</div>
-						</div>
-
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2023</h2>
-
-							<div class="pub-block">
-								<div class="lucida-console h5">Enhancing Stock Price Prediction with Deep Reinforcement Learning: A Time Series Analysis Approach</div>
-								<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Tahir Majid, Adeel Javed, Mohd Saif, Ashad Naushad and Md. Zubair Alam.</div>
-								<div class="pub-congress"> ICSTAICE, November 2023.</div>
-								<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2339-17031609701-6.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
-<!--									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>-->
-								</div>
-								<div class="d-none">
-@article{2022cpupcgcn,
-	author = {Meseguer-Iborra, Nicolas and Muñoz-Martínez, Francisco and Abellán, José L. and Acacio, Manuel E.},
-	year = {2022},
-	month = {June},
-	title = {CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU},
-	journal = {Avances en Arquitectura y Tecnología de Computadores},
-	volume = {32},
-	pages = {445--453},
-	isbn = {978-84-1302-185-0}
-}</div> <br>
-								<div class="lucida-console h5">A Comparative Study of Deep Reinforcement Learning Algorithms in Robotics.</div>
-<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>.</div>
-<div class="pub-congress">International Journal of Engineering Sciences and Emerging Technologies.</div>
-<div class="mt-1"><a href="https://doi.org/10.5281/zenodo.10434199"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10434199.svg" alt="DOI"></a></div>
-<div class="d-none">
-@article{ameen_ur_2023_10434199,
-  author       = {Ameen Ur, Rehman},
-  title        = {{A COMPARATIVE STUDY OF DEEP REINFORCEMENT LEARNING
-                   ALGORITHMS IN ROBOTICS}},
-  journal      = {{International Journal of Engineering Sciences \&
-                   Emerging Technologies}},
-  year         = 2023,
-  volume       = 11,
-  number       = 2,
-  month        = dec,
-  doi          = {10.5281/zenodo.10434199},
-  url          = {https://doi.org/10.5281/zenodo.10434199}
-}
-</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<!-- Blog -->
-				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
-					<div class="container">
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
-							<div class="h5">⛲ StreaMemory Benchmark</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
-								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#benchmark</span> <span class="tag t-lime">#mgpusim</span> <span class="tag t-purple">#akita</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
-							<div class="h5">🧊 Elementwise 2D Tensor</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
-								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
-							<div class="h5">🛤️ Tracing LDS Unit</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
-								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
-							<div class="h5">📊 DAISEN Tutorial</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
-								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- Academic / Teaching -->
-				<div class="col-md-8 offset-md-1 mb-5" id="academicContent">
-					<div class="container">
-
-						<!-- Each new year -->
-						<div class="row mt-2 language">
-							<!-- Year -->
-							<h2 class="academic-year-h2">2024</h2>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year">3.00 ECTS. <span data-en="February 2024 - June 2024" data-es="Febrero 2024 - Junio 2024"></span></div>
-								<!-- Links -->
-								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
-							</div>
-						</div>
-
-						<div class="row mt-4 language">
-							<h2 class="academic-year-h2">2023</h2>
-
-							<div class="academic-block">
-								<div class="lucida-console h5 academic-name"> <span data-en="Introduction to Operating Systems" data-es="Introducción a Sistemas Operativos (ISO)"></span></div>
-								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
-								<div class="academic-year">3.00 ECTS. <span data-en="September 2023 - January 2024" data-es="Septiembre 2023 - Enero 2024"></span></div>
-							</div>
-
-							<div class="academic-block mt-4">
-								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
-								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
-								<div class="academic-year">3.00 ECTS. <span data-en="February 2023 - June 2023" data-es="Febrero 2023 - Junio 2023"></span></div>
-								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
-							</div>
-						</div>
-
-						<div class="row mt-4 language">
-							<h2 class="student-h2" data-es="Alumnos" data-en="Students"></h2>
-
-							<div class="student-block">
-								<div class="student-name"> José Ángel Nicolás Ortega </div>
-								<div class="mt-1 h5 lucida-console"><span data-en="Register Bank Modeling on GPUs with MGPUSim" data-es="Modelado del Banco de Registros en GPUs con MGPUSim"></span></div>
-								<div class="student-mark fireworks">9.9 <span data-es="Sobresaliente - M. Honor" data-en="Outstanding - H.M."></span> </div>
-								<div class="mt-2 student-period"> <span data-en="September 2022 - June 2023" data-es="Septiembre 2022 - Junio 2023"></span> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Conferences -->
-				<div class="col-md-8 offset-md-1 mb-5" id="conferencesContent">
-					<div class="container language">
-						🌲
-						<span
-							data-es="Tienes todo el tiempo en el mundo para diseñar esta página"
-							data-en="You have all the time in the world to design this page.">
-						</span>
-						🌍
-						</div>
-				</div>
-
-				<!-- Experience -->
-				<div class="col-md-8 offset-md-1" id="experienceContent">
-					<div class="container">
-
-						<!-- Each new year -->
-						<div class="row mt-2 language">
-							<!-- Year -->
-							<h2 class="academic-year-h2">Research Experience</h2>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Robotics Intern"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="MDIT Lab, SeNSE, IIT Delhi"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="February 2025 - Present"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Developing a Simscape Multi-Body MATLAB simulation for prosthetic arm kinematics, implementing forward and inverse kinematics to achieve realistic movement and joint coordination.">
-								</div>
-<!--								&lt;!&ndash; Link &ndash;&gt;-->
-<!--								<div class="mt-1"><a href="https://github.com/RyanNavillus/Syllabus" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>-->
-
-							</div>
-
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Research Intern"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="MACSSL lab, Koc University"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="June 2024 - September 2024"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Engineered a model from over 50,000 WHO literature pages to predict sentiments, conditions, and exemptions. This involved creating a scalable machine learning model that integrated more than 25 variables to ensure precise predictions. Additionally, I developed an NLP tool that analyzed over 1,200 WHO Executive Board meeting minutes, effectively detecting alliances, stances, and member sentiments by focusing on earmarked keywords.">
-								</div>
-<!--								&lt;!&ndash; Link &ndash;&gt;-->
-<!--								<div class="mt-1"><a href="https://github.com/RyanNavillus/Syllabus" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>-->
-
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Research Intern"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Jamia Millia Islamia"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="August 2023 - January 2024"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Engineered a model achieving 71% accuracy in Multilingual Sentiment Analysis
-								using TensorFlow transformers. Executed rigorous experimentation and parameter optimization,
-								resulting in a notable 27% benchmark enhancement by leveraging Sentimix-Hinglish research datasets.
-								Pioneered brainstorming sessions, leading the exploration and refinement of two groundbreaking NLP projects
-								integrating transformer methodologies, while delving into the intricate nuances of LLMs.">
-								</div>
-								<!-- Link -->
-								<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/LOR%20Ameen.pdf" target="_blank" class="link-dark ">PDF</a></span>
-								</div>
-
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Research Intern"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="UP Lab, University of Surrey"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="August 2023 - October 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Tasked with deploying models on Hugging Face for
-								developer access and research resources. Efficiently trained the URBAN-SED Dataset model,
-								systematically reviewed, and promptly resolved 10+ codebase issues. Explored various Hugging Face resources
-								to enhance AI deployment and conducted knowledge-sharing sessions.">
-								</div>
-								<!-- Links -->
-								<div class="mt-1"><a href="https://doi.org/10.1609/aaai.v38i2.27837"><img src="https://zenodo.org/badge/DOI/10.1609/aaai.v38i2.27837.svg" alt="DOI"></a></div>
-								<!-- Citation -->
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Student Research Assistant"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Jamia Hamdard"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="February 2023 - July 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Propelled the frontier of stock price prediction by integrating
-								intricate deep reinforcement learning paradigms with complex market behaviors, fostering a paradigm shift
-								in predictive analytics. Revitalized 14 trials, driving an 8% surge in forecasting precision.
-								Enhanced the creation of 5 research reports and presentations, condensing findings and recommendations,
-								leading to a significant 40% improvement in report quality and overall impact.">
-								</div>
-								<!-- LiNK -->
-<!--								<div class="mt-1">-->
-<!--									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Abstract</a> </span>-->
-<!--								</div>-->
-
-
-							</div>
-						</div>
-
-						<!-- Each new year -->
-						<div class="row mt-2 language">
-							<!-- Year -->
-							<h2 class="academic-year-h2">Open Source Experience</h2>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="lucida-console h5 academic-name"> <span data-en="Research Project Contributor"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="MARL Lab, University of Maryland"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="February 2024 - June 2024"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Reduced loading time by 20% and improved robustness of the curriculum by refining the PLR.
-								Explored support and developed initial examples for multi-agent PettingZoo environments within Syllabus.
-								Additionally, developing 'Syllabus', an API for designing curricula for reinforcement learning agents and a
-								framework for synchronizing those curricula across environments running in multiple processes.">
-								</div>
-								<!-- Link -->
-								<div class="mt-1"><a href="https://github.com/RyanNavillus/Syllabus" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>
-
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="student-name"> <span data-en="Open Source Contributor"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="Ivy - The Unified Machine Learning Framework"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="August 2022 - January 2024"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Contributed to front-end development for an Open Source Machine
-								Learning Framework using PyTorch, PyTorch Lightning, Numpy, and Python. Meticulously tested and debugged code,
-								enhancing project stability and reliability. Directly addressed issues with the project lead, significantly
-								boosting user satisfaction.">
-								</div>
-								<!-- Link -->
-								<div class="mt-1"><a href="https://github.com/Transpile-AI/ivy" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>
-
-							</div>
-
-							<!-- Each subject -->
-							<div class="academic-block mt-4">
-								<!-- Title -->
-								<div class="student-name"> <span data-en="Open Source Developer"></span></div>
-								<!-- Subtitle -->
-								<div class="academic-rol mt-1"><span data-en="GirlScript Summer of Code"></span></div>
-								<!-- Extra inf -->
-								<div class="academic-year"><span data-en="May 2023 - August 2023"></span></div>
-								<!-- Content -->
-								<div class="mt-2 justify" data-en="Collaborated with 12 developers to design and implement innovative features,
-								 leading to a 44% increase in the capabilities of open-source projects. Maintained comprehensive documentation for
-								 6 projects, enhancing accessibility and usability by 72%. Improved project stability by 53% through robust testing
-								  and CI pipelines.">
-								</div>
-								<!-- LiNK -->
-<!--								<div class="mt-1">-->
-<!--									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Abstract</a> </span>-->
-<!--								</div>-->
-
-							</div>
-						</div>
-						<br><br>
-					</div>
-				</div>
-
-				<!-- Projects -->
-				<div class="col-md-8 offset-md-1" id="projectsContent">
-					<div class="container">
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://github.com/AmeenUrRehman/Agriculus</div>
-							<div class="h5">🍀Agriculus </div>
-
-							<div class="blog-short mt-2"
-								data-en=" Developed a comprehensive machine learning solution for precise crop selection and fertilizer recommendations, sharing
- 								agricultural insights through a blog. Achieved a remarkable accuracy of 99.3% with XGBoost, enhancing sustainable farming practices.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">Python</span> <span class="tag t-lime">XGBoost</span> <span class="tag t-purple">Machine Learning</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://github.com/AmeenUrRehman/ML-Playground</div>
-							<div class="h5"> 🛸 ML Playground </div>
-
-							<div class="blog-short mt-2"
-								data-en="Developed a GitHub repository featuring 12 extensive machine learning projects covering domains like natural language
-										processing, computer vision, and predictive modeling. This repository provides a 65% boost in practical examples,
-  										serving as a valuable resource for aspiring machine learning enthusiasts seeking inspiration and guidance.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">Python</span> <span class="tag t-lime">scikit-learn</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://github.com/AmeenUrRehman/Agriculus</div>
-							<div class="h5">🛰️OpenCV Kit </div>
-
-							<div class="blog-short mt-2"
-								data-en=" Curated a diverse repository of real-world projects exploring deep learning and OpenCV,
-								 empowering enthusiasts. Championed the creation of innovative image processing algorithms,
-								 striving to integrate with YOLO versions and other cutting-edge technologies, resulting in a 7%
-								 performance enhancement.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">OpenCV</span> <span class="tag t-lime">YOLO</span> <span class="tag t-purple">Machine Learning</span>
-							</div>
-						</div>
-						<br><br><br>
-					</div>
-				</div>
-
-				<!-- Photos -->
-				<!-- <div class="col-md-8 offset-md-1 mb-5" id="photosContent">
-					<h2 class="section-title language" 
-						data-en="Photos" 
-						data-es="Fotos">
-					</h2>
-					<p class="language" 
-						data-en="Here you can find some of my photos." 
-						data-es="Aquí puedes encontrar algunas de mis fotos.">
-					</p>
-				</div> -->
-
-
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="description" content="Ameen Ur Rehman's website, biography, education, previous experience and published papers."/>
+	<meta name="keywords" content="Ameen Ur Rehman, ameen ur rehman github, ameen ur rehman portfolio, ameen ur rehman cv"/>
+
+	<meta name="author" content="Ameen Ur Rehman" />
+	<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
+
+	<title>Ameen Ur Rehman</title>
+	<link rel="icon" type="image/x-icon" href="assets/documents/imgs/pngtree-blue-assassin-esports-logo-for-gaming-mascot-png-image_1038929.jpg">
+
+	<meta name="robots" content="index,follow" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<script>
+	fetch('./assets/js/config.json')
+		.then(response => response.json())
+		.then(config => {
+			const scriptTag = document.createElement('script');
+			scriptTag.async = true;
+			scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsMeasurementId}`;
+			document.head.appendChild(scriptTag);
+
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', config.googleAnalyticsMeasurementId);
+		})
+		.catch(error => console.error('Error loading the configuration:', error));
+</script>
+
+<body>
+	<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
+	<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
+
+	<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
+		<div class="container justify-content-center">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
+				<ul class="navbar-nav mx-auto" id="navbarList">
+					<li class="nav-item">
+						<a class="nav-link active" id="aboutme" href="#">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="experience" href="#">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="publications" href="#">Publications</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="projects" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="education" href="#">Position of Responsibilities</a>
+					</li>
+				</ul>
 			</div>
 		</div>
+	</nav>
 
+	<div class="container" id="main-content">
+		<div class="row content" id="section-content">
 
-		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-		<script src="assets/js/languageManager.js"></script>
-		<script src="assets/js/main.js"></script>
-	</body>
+			<div id="leftPanel" class="col-md-3">
+				<div class="row mb-3">
+					<div class="col">
+						<img src="assets/documents/imgs/my_avatar-mo.webp" class="rounded me-auto d-block img-fluid profilepicture" alt="Ameen Ur Rehman profile picture">
+					</div>
+				</div>
+
+				<h3 class="mb-2">Ameen Ur Rehman</h3>
+
+				<p class="mb-4">
+					<span class="t-secondary">B.Tech in Computer Science and Engineering Student at Jamia Hamdard</span>
+				</p>
+
+				<div class="row mb-2">
+					<div class="col-1">
+						<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
+					</div>
+					<div class="col-10">
+						<span>New Delhi, India</span>
+					</div>
+				</div>
+
+				<div class="row mb-2">
+					<div class="col-1">
+						<i class="ai ai-cv" aria-hidden="true"></i>
+					</div>
+					<div class="col-10">
+						<a href="assets/documents/CV_Ameen_Ur_Rehman.pdf" class="link-dark" target="_blank">CV [Updated 2/2025]</a>
+					</div>
+				</div>
+
+				<div class="row mb-2">
+					<div class="col-1">
+						<i class="fa-regular fa-envelope" aria-hidden="true"></i>
+					</div>
+					<div class="col-10">
+						<a href="mailto:ameensadiya12345@gmail.com" class="link-dark">ameensadiya12345@gmail.com</a>
+					</div>
+				</div>
+
+				<div class="row mb-2">
+					<div class="col-1">
+						<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+					</div>
+					<div class="col-10">
+						<a href="https://www.linkedin.com/in/ameen-ur-rehman-9b07a321b" class="link-dark" target="_blank">LinkedIn</a>
+					</div>
+				</div>
+
+				<div class="row mb-2">
+					<div class="col-1">
+						<i class="fab fa-github" aria-hidden="true"></i>
+					</div>
+					<div class="col-10">
+						<a href="https://github.com/AmeenUrRehman" class="link-dark" target="_blank">GitHub</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
+				<div class="container">
+					<div class="row">
+						<p class="mt-2 justify">
+							Passionate about pushing the boundaries of innovation, I delve into the realms of drone systems, space Iron Man suits, reinforcement learning, and generative AI. Beyond the realm of computer vision, my focus extends to crafting solutions for real-world challenges. Through my journey in open-source contributions, I thrive on exploring deep learning intricacies and eagerly anticipate collaborating on groundbreaking projects that fuse creativity with technological prowess. Let's embark on this journey of innovation together! 🚀🔧
+							Eager to elevate my exploration of artificial intelligence, I am actively seeking internships within the realm of AI research, with a keen interest in opportunities that could potentially evolve into a full-time post-graduate pursuit.
+						</p>
+
+						<h4 id="researchinterestsH4" class="mt-2">Education</h4>
+
+						<div class="student-name"><span>Jamia Hamdard (2021 - 2025)</span></div>
+						<div class="academic-year"><span>Bachelor of Technology in Computer Science and Engineering</span></div>
+						<div class="academic-year"><span>Grade : First Division with Distinction</span></div>
+						<div class="mt-2 justify">
+							Throughout my course I have studied Machine Learning, Web Development, Database Management System, Compiler Design, Computer Networks, Digital Electronics, Mathematics, Physics, Operating System, Deep Learning, Data Mining, Neural Networks and Software Development.
+						</div>
+
+						<h4 id="honors-and-awards" class="mt-2">Honors and Awards</h4>
+
+						<ul class="mt-1">
+							<li class="abme-honors-bullet">
+								<strong>🥇 Winner</strong> <span>of Hack-A-Thon from 45+ Universities for AI/ML Domain.</span>
+							</li>
+
+							<li class="abme-honors-bullet mt-2">
+								<strong>🥇 Winner</strong> <span>of Internal Hackathon of Smart India Hackathon (SIH) 2023.</span>
+							</li>
+
+							<li class="abme-honors-bullet mt-2">
+								<strong>🥈 Finalist</strong>, <span>of HackJNU 3.0 from 55+ Universities for AI/ML Domain</span>
+							</li>
+
+							<li class="abme-honors-bullet mt-2">
+								<strong><span>University scholarship</span></strong> <span>Financial Aid for Academic excellence.</span>
+							</li>
+
+							<li class="abme-honors-bullet mt-2">
+								<strong>Fellow</strong> <span>of Season 3 The Nights and Weekends at buildspace.</span>
+							</li>
+						</ul>
+
+						<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
+
+						<div class="container">
+							<div class="row mt-3">
+								<div class="thumbnail col-md-3">
+									<img class="rounded mx-auto d-block img-fluid" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/computer-coding.jpg" alt="Programming and Math">
+								</div>
+								<div class="col-md-9" id="hobbie1">
+									<b>Programming</b>
+									<br />
+									<p class="mt-2 d-inline justify">
+										I love playing games like GTA San Andreas and Hitman, where I discovered cheat codes and developed my interest in programming. Using mobile techniques, voice assistants, and inspiration from movies like Iron Man fueled my passion to pursue a career in tech.
+									</p>
+								</div>
+							</div>
+
+							<div class="row mt-5">
+								<div class="thumbnail col-md-3">
+									<img class="rounded mx-auto d-block img-fluid" src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202406/66691948cf6a2-travelling-12430430-16x9.jpg?size=948:533" alt="Travelling">
+								</div>
+								<div class="col-md-9" id="hobbie2">
+									<b>Travelling</b>
+									<br />
+									<p class="mt-2 d-inline justify">
+										I love to travel and explore new places. Currently in India, I'm enjoying the unique charm of each destination and look forward to discovering more of its diverse landscapes.
+									</p>
+								</div>
+							</div>
+
+							<div class="row mt-5">
+								<div class="thumbnail col-md-3">
+									<img class="rounded mx-auto d-block img-fluid" src="https://i.pinimg.com/originals/f1/d7/f7/f1d7f737fe1b428857857d8901d4e462.jpg" alt="Sports and Workout">
+								</div>
+								<div class="col-md-9" id="hobbie3">
+									<b>Sports + Workout</b>
+									<br />
+									<p class="mt-2 d-inline justify">
+										As a sports and workout enthusiast, I believe in the importance of physical activity for a sharp mind. My father always told me that an active mind doesn't exist without an active body. This advice has driven me to stay engaged in various sports and maintain a consistent workout routine.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
+				<div class="container">
+					<div class="row mt-2">
+						<h2 class="academic-year-h2">Leadership Experience</h2>
+
+						<div class="academic-block mt-4">
+							<div class="leadership-name"><span>Student Ambassador</span></div>
+							<div class="academic-rol mt-1"><span>Microsoft Learn Student Ambassador</span></div>
+							<div class="academic-year"><span>August 2023 - Present</span></div>
+							<div class="mt-2 justify">
+								Actively contributed to the advancement of Microsoft technologies. My focus on mentorship and collaborative feedback reflects my dedication to fostering personal and community growth in the tech space.
+							</div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="leadership-name"><span>Artificial Intelligence and Machine Learning Lead</span></div>
+							<div class="academic-rol mt-1"><span>Google Developer Student Club</span></div>
+							<div class="academic-year"><span>May 2022 - August 2023</span></div>
+							<div class="mt-2 justify">
+								Led Machine Learning and AI initiatives, boosting student participation by 30%, enhancing knowledge-sharing by 25%, and completing 8 domain-specific projects, vital for GDSC's growth.
+							</div>
+						</div>
+					</div>
+
+					<div class="row mt-2">
+						<h2 class="academic-year-h2">Mentorship Experience</h2>
+
+						<div class="academic-block mt-4">
+							<div class="mentorship-name"><span>Artificial Intelligence and Machine Learning Mentor</span></div>
+							<div class="academic-rol mt-1"><span>IIT Kharagpur Open Source Society (KOSS)</span></div>
+							<div class="academic-year"><span>December 2022 - January 2023</span></div>
+							<div class="mt-2 justify">
+								Guided 60+ students, fostering innovation and boosting engagement by 25% through facilitated knowledge sharing, supporting 20+ open-source contributions.
+							</div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="mentorship-name"><span>Artificial intelligence and Machine Learning Mentor</span></div>
+							<div class="academic-rol mt-1"><span>HackClub</span></div>
+							<div class="academic-year"><span>May 2022 - April 2023</span></div>
+							<div class="mt-2 justify">
+								Guided students in machine learning and artificial intelligence projects. Empowering the through hands-on learning and mentorship.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
+				<div class="container">
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2024</h2>
+
+						<div class="pub-block">
+							<div class="lucida-console h5">Syllabus: Curriculum Learning Made Easy</div>
+							<div class="pub-authors mt-1">Ryan Sullivan, Ryan Pégoud, <span class="pub-author">Ameen Ur Rehman</span>, Xinchen Yang, Junyun Huang, Aayush Verma, Nistha Mitraa and John P Dickerson.</div>
+							<div class="pub-congress">Under-Review NeurIPS 2024.</div>
+							<br>
+
+							<div class="lucida-console h5">Advances in AI for Healthcare Applications</div>
+							<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Abuzar and Dayam Nadeem.</div>
+							<div class="pub-congress">Book Chapter Under-review CRC Press (Taylor and Francis).</div>
+							<br>
+
+							<div class="lucida-console h5">Synergetic Intelligence: A Multi-Agent Learning Framework for Sustainable Healthcare Computing.</div>
+							<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Abdul Sadiq, Amaan Ahmad, Arman Khan, Adnan Khan and Anmol Mathur.</div>
+							<div class="pub-congress">4th International Conference on ICT for Digital, Smart and Sustainable Development.</div>
+							<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/ICIDSSD%20JH%20Certificate.pdf" target="_blank" class="link-dark ">PDF</a></span></div>
+							<br>
+
+							<div class="lucida-console h5">Cybersecurity challenges and risks in AGI development and deployment.</div>
+							<div class="pub-authors mt-1"> Usha Rawat, Abhishek, H. Singh and <span class="pub-author">Ameen Ur Rehman</span>.</div>
+							<div class="pub-congress">Accepted at Springer 2024.</div>
+							<div class="mt-1"><a href="https://doi.org/10.1007/978-981-97-3222-7_14"><img src="https://zenodo.org/badge/DOI/10.5281/978-981-97-3222-7_14.svg" alt="DOI"></a></div>
+						</div>
+					</div>
+
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2023</h2>
+
+						<div class="pub-block">
+							<div class="lucida-console h5">Enhancing Stock Price Prediction with Deep Reinforcement Learning: A Time Series Analysis Approach</div>
+							<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>, Tahir Majid, Adeel Javed, Mohd Saif, Ashad Naushad and Md. Zubair Alam.</div>
+							<div class="pub-congress"> ICSTAICE, November 2023.</div>
+							<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2339-17031609701-6.pdf" target="_blank" class="link-dark ">Abstract</a> </span></div>
+							<br>
+
+							<div class="lucida-console h5">A Comparative Study of Deep Reinforcement Learning Algorithms in Robotics.</div>
+							<div class="pub-authors mt-1"><span class="pub-author">Ameen Ur Rehman</span>.</div>
+							<div class="pub-congress">International Journal of Engineering Sciences and Emerging Technologies.</div>
+							<div class="mt-1"><a href="https://doi.org/10.5281/zenodo.10434199"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10434199.svg" alt="DOI"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-1" id="experienceContent">
+				<div class="container">
+					<div class="row mt-2">
+						<h2 class="academic-year-h2">Research Experience</h2>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Robotics Intern</span></div>
+							<div class="academic-rol mt-1"><span>MDIT Lab, SeNSE, IIT Delhi</span></div>
+							<div class="academic-year"><span>February 2025 - Present</span></div>
+							<div class="mt-2 justify">
+								Developing a Simscape Multi-Body MATLAB simulation for prosthetic arm kinematics, implementing forward and inverse kinematics to achieve realistic movement and joint coordination.
+							</div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Research Intern</span></div>
+							<div class="academic-rol mt-1"><span>MACSSL lab, Koc University</span></div>
+							<div class="academic-year"><span>June 2024 - September 2024</span></div>
+							<div class="mt-2 justify">
+								Engineered a model from over 50,000 WHO literature pages to predict sentiments, conditions, and exemptions. This involved creating a scalable machine learning model that integrated more than 25 variables to ensure precise predictions. Additionally, I developed an NLP tool that analyzed over 1,200 WHO Executive Board meeting minutes, effectively detecting alliances, stances, and member sentiments by focusing on earmarked keywords.
+							</div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Research Intern</span></div>
+							<div class="academic-rol mt-1"><span>Jamia Millia Islamia</span></div>
+							<div class="academic-year"><span>August 2023 - January 2024</span></div>
+							<div class="mt-2 justify">
+								Engineered a model achieving 71% accuracy in Multilingual Sentiment Analysis using TensorFlow transformers. Executed rigorous experimentation and parameter optimization, resulting in a notable 27% benchmark enhancement by leveraging Sentimix-Hinglish research datasets. Pioneered brainstorming sessions, leading the exploration and refinement of two groundbreaking NLP projects integrating transformer methodologies, while delving into the intricate nuances of LLMs.
+							</div>
+							<div class="mt-1"><span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/LOR%20Ameen.pdf" target="_blank" class="link-dark ">PDF</a></span></div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Research Intern</span></div>
+							<div class="academic-rol mt-1"><span>UP Lab, University of Surrey</span></div>
+							<div class="academic-year"><span>August 2023 - October 2023</span></div>
+							<div class="mt-2 justify">
+								Tasked with deploying models on Hugging Face for developer access and research resources. Efficiently trained the URBAN-SED Dataset model, systematically reviewed, and promptly resolved 10+ codebase issues. Explored various Hugging Face resources to enhance AI deployment and conducted knowledge-sharing sessions.
+							</div>
+							<div class="mt-1"><a href="https://doi.org/10.1609/aaai.v38i2.27837"><img src="https://zenodo.org/badge/DOI/10.1609/aaai.v38i2.27837.svg" alt="DOI"></a></div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Student Research Assistant</span></div>
+							<div class="academic-rol mt-1"><span>Jamia Hamdard</span></div>
+							<div class="academic-year"><span>February 2023 - July 2023</span></div>
+							<div class="mt-2 justify">
+								Propelled the frontier of stock price prediction by integrating intricate deep reinforcement learning paradigms with complex market behaviors, fostering a paradigm shift in predictive analytics. Revitalized 14 trials, driving an 8% surge in forecasting precision. Enhanced the creation of 5 research reports and presentations, condensing findings and recommendations, leading to a significant 40% improvement in report quality and overall impact.
+							</div>
+						</div>
+					</div>
+
+					<div class="row mt-2">
+						<h2 class="academic-year-h2">Open Source Experience</h2>
+
+						<div class="academic-block mt-4">
+							<div class="lucida-console h5 academic-name"><span>Research Project Contributor</span></div>
+							<div class="academic-rol mt-1"><span>MARL Lab, University of Maryland</span></div>
+							<div class="academic-year"><span>February 2024 - June 2024</span></div>
+							<div class="mt-2 justify">
+								Reduced loading time by 20% and improved robustness of the curriculum by refining the PLR. Explored support and developed initial examples for multi-agent PettingZoo environments within Syllabus. Additionally, developing 'Syllabus', an API for designing curricula for reinforcement learning agents and a framework for synchronizing those curricula across environments running in multiple processes.
+							</div>
+							<div class="mt-1"><a href="https://github.com/RyanNavillus/Syllabus" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="student-name"><span>Open Source Contributor</span></div>
+							<div class="academic-rol mt-1"><span>Ivy - The Unified Machine Learning Framework</span></div>
+							<div class="academic-year"><span>August 2022 - January 2024</span></div>
+							<div class="mt-2 justify">
+								Contributed to front-end development for an Open Source Machine Learning Framework using PyTorch, PyTorch Lightning, Numpy, and Python. Meticulously tested and debugged code, enhancing project stability and reliability. Directly addressed issues with the project lead, significantly boosting user satisfaction.
+							</div>
+							<div class="mt-1"><a href="https://github.com/Transpile-AI/ivy" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></div>
+						</div>
+
+						<div class="academic-block mt-4">
+							<div class="student-name"><span>Open Source Developer</span></div>
+							<div class="academic-rol mt-1"><span>GirlScript Summer of Code</span></div>
+							<div class="academic-year"><span>May 2023 - August 2023</span></div>
+							<div class="mt-2 justify">
+								Collaborated with 12 developers to design and implement innovative features, leading to a 44% increase in the capabilities of open-source projects. Maintained comprehensive documentation for 6 projects, enhancing accessibility and usability by 72%. Improved project stability by 53% through robust testing and CI pipelines.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-1" id="projectsContent">
+				<div class="container">
+					<div class="clickable mt-4">
+						<div class="d-none">https://github.com/AmeenUrRehman/Agriculus</div>
+						<div class="h5">🍀Agriculus</div>
+						<div class="blog-short mt-2">
+							Developed a comprehensive machine learning solution for precise crop selection and fertilizer recommendations, sharing agricultural insights through a blog. Achieved a remarkable accuracy of 99.3% with XGBoost, enhancing sustainable farming practices.
+						</div>
+						<div class="blog-tags mt-1">
+							<span class="tag t-sky">Python</span> <span class="tag t-lime">XGBoost</span> <span class="tag t-purple">Machine Learning</span>
+						</div>
+					</div>
+
+					<div class="clickable mt-4">
+						<div class="d-none">https://github.com/AmeenUrRehman/ML-Playground</div>
+						<div class="h5">🛸 ML Playground</div>
+						<div class="blog-short mt-2">
+							Developed a GitHub repository featuring 12 extensive machine learning projects covering domains like natural language processing, computer vision, and predictive modeling. This repository provides a 65% boost in practical examples, serving as a valuable resource for aspiring machine learning enthusiasts seeking inspiration and guidance.
+						</div>
+						<div class="blog-tags mt-1">
+							<span class="tag t-sky">Python</span> <span class="tag t-lime">scikit-learn</span>
+						</div>
+					</div>
+
+					<div class="clickable mt-4">
+						<div class="d-none">https://github.com/AmeenUrRehman/OpenCV-Kit</div>
+						<div class="h5">🛰️OpenCV Kit</div>
+						<div class="blog-short mt-2">
+							Curated a diverse repository of real-world projects exploring deep learning and OpenCV, empowering enthusiasts. Championed the creation of innovative image processing algorithms, striving to integrate with YOLO versions and other cutting-edge technologies, resulting in a 7% performance enhancement.
+						</div>
+						<div class="blog-tags mt-1">
+							<span class="tag t-sky">OpenCV</span> <span class="tag t-lime">YOLO</span> <span class="tag t-purple">Machine Learning</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script src="assets/js/languageManager.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 
 </html>
