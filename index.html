@@ -22,6 +22,20 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- Libertinus Math font for content (not for titles/headers) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
+	<style>
+		/* Apply Libertinus Math to content in divs, but not to headers or titles */
+		div, p, span, li, ul, ol, .justify, .academic-block, .blog-short, .blog-tags, .pub-authors, .pub-congress, .academic-year, .academic-rol, .student-name, .leadership-name, .mentorship-name {
+			font-family: 'Libertinus Math', serif;
+		}
+		h1, h2, h3, h4, h5, h6, .navbar, .navbar-brand, .nav-link, .academic-year-h2, .pub-year-h2, .lucida-console {
+			font-family: inherit !important;
+		}
+	</style>
 </head>
 
 <script>
