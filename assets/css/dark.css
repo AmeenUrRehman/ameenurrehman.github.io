@@ -11,8 +11,12 @@ body {
 	color: var(--t-color)
 }
 
-h1, h2, h3, h4, b {
-	color: var(--h-color) !important;
+h1, h2, h3, b {
+	color: var(--t-color) !important;
+}
+
+h4 {
+	color: #0dcaf0 !important;
 }
 
 #top-nav {
@@ -24,15 +28,16 @@ h1, h2, h3, h4, b {
 }
 
 .nav-link:hover{
-	color: rgba(255, 255, 255, 0.7) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .link-dark {
-	color: var(--h-color) !important;
+    color: var(--h-color) !important;
+    text-decoration: none !important;
 }
 
 .link-dark:hover, .link-dark:focus {
-	color: #DBDBDB !important;
+    color: #DBDBDB !important;
 }
 
 .navbar-toggler-icon {
@@ -75,7 +80,7 @@ h1, h2, h3, h4, b {
 }
 
 .student-name {
-	color: #00FFC1;
+	color: white;
 }
 
 .leadership-name {
