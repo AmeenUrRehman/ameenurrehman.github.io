@@ -35,6 +35,7 @@ h4 {
 
 .link-dark {
 	color: #212529 !important;
+	text-decoration: none !important;
 }
 
 .link-dark:hover {
